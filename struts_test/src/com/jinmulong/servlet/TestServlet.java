@@ -11,29 +11,50 @@ public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String requestURI = request.getRequestURI();
-        System.out.println("requestUIR="+requestURI);
         String path = requestURI.substring(requestURI.indexOf("/",1),requestURI.indexOf("."));
         System.out.println("path="+path);
+        /*
         UserManager userManager = new UserManager();
         String username= request.getParameter("username");
+        String forward="";
         if("/servlet/delUser".equals(path)){
             userManager.del(username);
-            request.getRequestDispatcher("/del_success.jsp").forward(request,response);
+            forward ="/del_success.jsp";
         }else if("/servlet/addUser".equals(path)){
             userManager.add(username);
-            request.getRequestDispatcher("/add_success.jsp").forward(request,response);
+            forward ="/add_success.jsp";
         }else if("/servlet/modifyUser".equals(path)){
             userManager.modify(username);
-            request.getRequestDispatcher("/modify_success.jsp").forward(request,response);
+            forward ="/modify_success.jsp";
         }else if("/servlet/queryUser".equals(path)){
             List userList = userManager.query(username);
             request.setAttribute("userList",userList);
             userManager.query(username);
-            request.getRequestDispatcher("/query_success.jsp").forward(request,response);
+            forward ="/query_success.jsp";
         }else{
             throw  new RuntimeException("请求失败");
         }
-
+        request.getRequestDispatcher(forward).forward(request,response);
+        */
+        Action action = null;
+        if("/servlet/delUser".equals(path)){
+            action = new DelUserAction();
+        }else if("/servlet/addUser".equals(path)){
+            action= new AddUserAction();
+        }else if("/servlet/modifyUser".equals(path)){
+            action= new ModifyUserAction();
+        }else if("/servlet/queryUser".equals(path)){
+            action = new QueryUserAction();
+        }else{
+            throw  new RuntimeException("请求失败");
+        }
+        String forward = null;
+        try{
+            forward= action.execute(request,response);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        request.getRequestDispatcher(forward).forward(request,response);
     }
 
     @Override
