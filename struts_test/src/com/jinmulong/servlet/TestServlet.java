@@ -55,6 +55,67 @@ public class TestServlet extends HttpServlet {
             e.printStackTrace();
         }
         request.getRequestDispatcher(forward).forward(request,response);
+
+        /**
+         * <action-config>
+         *     <action path="/servlet/delUser" type="com.jinmulong.servlet.DelUserAction">
+         *         <forward name="success">/del_success.jsp</forward>
+         *         <forward name="error">/del_error.jsp</forward>
+         *     </action>
+         *     <action path="/servlet/addUser" type="com.jinmulong.servlet.AddUserAction">
+         *         <forward name="success">/add_success.jsp</forward>
+         *         <forward name="error">/add_error.jsp</forward>
+         *     </action>
+         *     <action path="/servlet/modifyUser" type="com.jinmulong.servlet.ModifyUserAction">
+         *         <forward name="success">/modify_success.jsp</forward>
+         *         <forward name="error">/modify_error.jsp</forward>
+         *     </action>
+         *     <action path="/servlet/queryUser" type="com.jinmulong.servlet.QueryUserAction">
+         *         <forward name="success">/query_success.jsp</forward>
+         *         <forward name="error">/query_error.jsp</forward>
+         *     </action>
+         * </action-config>
+         *
+         * ActionMapping{
+         *      private String path;
+         *      private String type;
+         *      Map forwardMap;         *
+         * }
+         *
+         * forwardMap{
+         *  key="success";
+         *  value="/add_success.jsp"
+         *  key="error";
+         *  value="/add_error.jsp"
+         * }
+         *
+         * Map map = new HashMap();
+         * map.put("/servlet/delUser",actionMapping);
+         * map.put("/servlet/addUser",actionMapping);
+         * map.put("/servlet/modifyUser",actionMapping);
+         * map.put("/servlet/queryUser",actionMapping);
+         *
+         *
+         * 如果是删除ActionMapping存储如下
+         * actionMapping{
+         * path="/servlet/delUser";
+         * type="com.jinmulong.servlet.DelUserAction";
+         * forwardMap{
+         *      key="success", value="/del_success.jsp"
+         *      key="error",value="/del_error.jsp"
+         * }
+         * }
+         *
+         * String path = "/servlet/addUser";         *
+         *
+         * ActionMapping actionMapping = (ActionMapping)map.get(path);
+         * String type = actionMapping.getType();
+         *
+         * Action action=(Action)class.forName(type).newInstance();
+         * String forward = action.execute(request.response);
+         *
+         * request.getRequestDispatcher(forward).forward(request,response);
+         */
     }
 
     @Override

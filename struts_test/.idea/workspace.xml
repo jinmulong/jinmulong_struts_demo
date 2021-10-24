@@ -7,16 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c28e90-18f1-452e-86d2-00031c9e362f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/AddUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/DelUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/ModifyUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/QueryUserAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/classes/com/jinmulong/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/classes/com/jinmulong/servlet/TestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/struts_test/com/jinmulong/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/struts_test/com/jinmulong/servlet/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jinmulong/servlet/DelUserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/DelUserAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +171,7 @@
       <updated>1634977322905</updated>
       <workItem from="1634977324538" duration="1861000" />
       <workItem from="1634979338581" duration="455000" />
-      <workItem from="1634979898810" duration="15581000" />
+      <workItem from="1634979898810" duration="19907000" />
     </task>
     <servers />
   </component>

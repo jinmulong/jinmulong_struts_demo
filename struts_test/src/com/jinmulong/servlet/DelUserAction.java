@@ -9,7 +9,11 @@ public class DelUserAction implements  Action{
         String username= request.getParameter("username");
 
         UserManager userManager = new UserManager();
-        userManager.del(username);
+        try{
+            userManager.del(username);
+        }catch (Exception e){
+            return "/del_error.jsp";
+        }
         return "/del_success.jsp";
     }
 }
