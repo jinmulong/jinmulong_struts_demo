@@ -7,33 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c28e90-18f1-452e-86d2-00031c9e362f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/struts_test_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struts_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-jcl-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ognl-3.1.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/add_success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/del_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modify_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/query_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/classes/com/jinmulong/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/classes/com/jinmulong/servlet/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/classes/com/jinmulong/servlet/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/classes/com/jinmulong/servlet/UserManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/struts_test_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/struts_test/com/jinmulong/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/struts_test/com/jinmulong/servlet/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/struts_test/com/jinmulong/servlet/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/struts_test/com/jinmulong/servlet/UserManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jinmulong/servlet/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jinmulong/servlet/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +45,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectId" id="1ztpcqevBelT4UfC5neE4kb62ZG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,13 +62,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\alex\dev\git\jinmulong\jinmulong_struts_demo\struts_test\web" />
       <recent name="C:\alex\dev\git\jinmulong\jinmulong_struts_demo\struts_test\web\WEB-INF" />
       <recent name="C:\alex\dev\git\jinmulong\jinmulong_struts_demo\struts_test\src" />
     </key>
@@ -186,7 +178,7 @@
       <updated>1634977322905</updated>
       <workItem from="1634977324538" duration="1861000" />
       <workItem from="1634979338581" duration="455000" />
-      <workItem from="1634979898810" duration="5674000" />
+      <workItem from="1634979898810" duration="13106000" />
     </task>
     <servers />
   </component>
@@ -207,21 +199,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/jinmulong/servlet/TestServlet.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

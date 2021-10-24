@@ -17,6 +17,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
-        <url-pattern>/servlet/TestServlet</url-pattern>
+<!--        <url-pattern>/servlet/TestServlet</url-pattern>-->
+        <url-pattern>*.action</url-pattern>
     </servlet-mapping>
+
 </web-app>
